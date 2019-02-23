@@ -1,7 +1,7 @@
 <html>
   <body>
     <script>
-      alert('Hello, World!)
+      alert('Hello, World!')
     </script>
   </body>
 </html>
