@@ -1,0 +1,37 @@
+<script>
+var as
+function fpmp(first){
+	as = prompt (first);
+}
+function falt(first){
+	alert (first)
+}
+var qus
+var ans
+var point
+var i = 0
+while (true){
+	fpmp ("문제를 입력해주세요. 그만하시고 싶으시면 그냥 확인을 눌러주세요.")
+	if (as == ""){
+		break
+	}else{
+		qus.push (as);
+		fpmp (qus [qus.length] + "의 답은?");
+		ans.push (as);
+	}
+}
+alert (qus)
+/*
+while (i < qus.length;){
+	fpmp (qus [i])
+	if (as = ans [i]){
+		alert ("정답!!!!")
+		point = point + 10
+	}else{
+		alert ("오답.... 정답: " + ans [i])
+		point = point - 5
+	}
+	i = i + 1
+}
+*/
+</script>
